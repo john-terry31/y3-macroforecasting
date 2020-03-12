@@ -1,0 +1,41 @@
+US Macro Data-set Description:
+
+This dataset contains 4 time series data-sets for US Macroaggregate Indicators. 
+Data has been largely unchanged to allow more flexibility when using (e.g. One of the time series starts later (~10 years) than the others, but all data has been left in.)
+
+The following series (in order of appearance) are in the data file:
+Descriptions of each data-set are taken from their respective sources - see links for more detail.
+
+CPI_MONTHLY: https://fred.stlouisfed.org/series/CPIAUCSL
+
+The Consumer Price Index for All Urban Consumers: All Items (CPIAUCSL) is a measure of the average monthly change in 
+the price for goods and services paid by urban consumers between any two time periods. 
+It can also represent the buying habits of urban consumers. This particular index includes roughly 88 percent of the total population, 
+accounting for wage earners, clerical workers, technical workers, self-employed, short-term workers, unemployed, retirees, and those not in the labor force.
+
+The CPI can be used to recognize periods of inflation and deflation. Significant increases in the CPI within a short time frame 
+might indicate a period of inflation, and significant decreases in CPI within a short time frame might indicate a period of deflation. 
+However, because the CPI includes volatile food and oil prices, it might not be a reliable measure of inflationary and deflationary periods. 
+For a more accurate detection, the core CPI (CPILFESL) is often used. When using the CPI, please note that it is not applicable to all 
+consumers and should not be used to determine relative living costs. Additionally, the CPI is a statistical measure vulnerable to sampling 
+error since it is based on a sample of prices and not the complete average.
+
+
+UNRATE: https://fred.stlouisfed.org/series/UNRATE
+
+The unemployment rate represents the number of unemployed as a percentage of the labor force. 
+Labor force data are restricted to people 16 years of age and older, who currently reside in 1 of the 50 states or the 
+District of Columbia, who do not reside in institutions (e.g., penal and mental facilities, homes for the aged), and who are 
+not on active duty in the Armed Forces.
+
+INFLATION: https://data.oecd.org/price/inflation-cpi.htm
+
+Inflation measured by consumer price index (CPI) is defined as the change in the prices of a basket of goods and services that are 
+typically purchased by specific groups of households. Inflation is measured in terms of the annual growth rate and in index, 
+2015 base year with a breakdown for food, energy and total excluding food and energy. 
+
+GDP_CHANGE: https://fred.stlouisfed.org/series/A191RO1Q156NBEA
+
+https://www.bea.gov/data/gdp/gross-domestic-product A comprehensive measure of U.S. economic activity. 
+GDP is the value of the goods and services produced in the United States. 
+The growth rate of GDP is the most popular indicator of the nation's overall economic health.
